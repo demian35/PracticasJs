@@ -57,4 +57,15 @@ console.log(numero3 >= numero1);
 
 //operadores logicos
 
+//and &&
+console.log(true && true);
+console.log(true && false);
+console.log(false && true);
+console.log(false && false);
 
+
+//or ||
+console.log(true || true);
+console.log(true || false);
+console.log(false || true);
+console.log(false || false);
