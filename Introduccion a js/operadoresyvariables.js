@@ -30,5 +30,10 @@ var division=numero1/numero3;
 console.log(division);
 console.log(typeof division);
 
+//concatenacion de cadenas
+
+var cadenaNueva= micadena + " Its me";
+
+document.write(cadenaNueva);
 
 
