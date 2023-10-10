@@ -36,4 +36,25 @@ var cadenaNueva= micadena + " Its me";
 
 document.write(cadenaNueva);
 
+//incremento y decremento
+
+let incremento=++numero3;
+console.log(incremento)
+
+let decremento=--numero3;
+console.log(decremento);
+
+
+//comparaciones y valores logicos
+
+console.log(!true);
+console.log(!!true);
+console.log(!false);
+
+console.log(numero1===numero3);
+console.log(numero3 >= numero1);
+
+
+//operadores logicos
+
 
