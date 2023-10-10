@@ -27,7 +27,7 @@ class Nomina{
 
 let empleado= new Nomina("empleado");
 
-empleado.getNombre();
+console.log(empleado.getNombre());
 
 empleado.agregaaNomina("fulano",10000);
-empleado.consultaSueldo("fulano");
+console.log(empleado.consultaSueldo("fulano"));
