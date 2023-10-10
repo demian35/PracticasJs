@@ -39,6 +39,17 @@ function sumaNumeros3(num){
 
 console.log(sumaNumeros3(10));
 
+//factorial con ciclo for
+function factorial(num){
+    fact=1;
+    for(let i=1;i<=num;i++){
+        fact*=i;
+    }
+    return fact;
+}
+
+console.log(factorial(5));
+
 
 
 
