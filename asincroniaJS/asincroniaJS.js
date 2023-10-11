@@ -31,6 +31,9 @@ const plantilla=[
 
 const getDatos=() =>{
     return new Promise((resolve,reject)=>{
+        if(plantilla.length===0){
+            reject(new Error('No hay datos'));//si se rechaza la ejecucion mandamos error
+        }
         setTimeout(()=>{
             resolve(plantilla);//regresamos los datos de plantilla   
         }, 1500)//le damos 1500 ms de tiempo de respuesta
@@ -47,7 +50,7 @@ async function recaudaDatos(){
         const datosRecaudados= await getDatos();//para regresar los datos recaudados hay que esperar la respuesta de getDatos
         console.log(datosRecaudados);
     }catch(err){
-        console.log(err)
+        console.log(err.message)
     }
   
 }
