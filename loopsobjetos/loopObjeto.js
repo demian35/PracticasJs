@@ -3,7 +3,7 @@
 const jugador={
     nombre:"Demian",
     edad:25,
-    posicion:StylePropertyMapReadOnly
+    posicion:"Portero"
 };
 
 const propiedades=Object.getOwnPropertyNames(jugador);//obtenemos las propiedades del objeto
