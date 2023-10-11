@@ -39,4 +39,17 @@ const getDatos=() =>{
 
 
 //ejecutamos la funcion
-getDatos().then((plantilla)=> console.log(plantilla));
+//getDatos().then((plantilla)=> console.log(plantilla));
+
+//se declara esta funcion para ejecutar get datos de forma asincrona
+async function recaudaDatos(){
+    try{
+        const datosRecaudados= await getDatos();//para regresar los datos recaudados hay que esperar la respuesta de getDatos
+        console.log(datosRecaudados);
+    }catch(err){
+        console.log(err)
+    }
+  
+}
+
+console.log(recaudaDatos());
