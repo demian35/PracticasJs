@@ -17,4 +17,21 @@ console.log(miArreglo2.push(9));
 console.log(miArreglo2.sort());
 
 
+function sumaDos(num){
+    return num+2;
+}
+
+console.log(sumaDos(4));
+
+//funcion map sirve para poder aplicar alguna funcion a los elementos de un array
+
+let suma2= miArreglo2.map((item) => sumaDos(item))
+console.log(suma2);
+
+
+//funcion filter para filtrar elementos de un array que cumplan con determinada condicion
+
+let impares=miArreglo2.filter((item)=> item%2!==0);
+console.log(impares);
+
 
