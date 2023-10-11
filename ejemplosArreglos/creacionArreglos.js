@@ -34,4 +34,11 @@ console.log(suma2);
 let impares=miArreglo2.filter((item)=> item%2!==0);
 console.log(impares);
 
+//operaciones clase string
+
+console.log("JavaScript"[2])//regresa la cadena o caracter que esta en el indice 2
+
+console.log("Javascript".length);
+console.log("Javascript".indexOf("script"));//indexOF nos regresa el indice donde inicia una cadena
+console.log("Javascript".substring(4,7));//substring regresa la subcadena que se encuentra en el rango de incices indicado
 
